@@ -44,7 +44,7 @@ class Program
         Console.WriteLine("Ola " + name + " " + surname + "! Seja muito bem-vindo!");
     }
 
-    public static void Main()
+    public static void Desafio3()
     {
         Double valor1 = 12.2;
         Double valor2 = 3.5;
@@ -65,5 +65,17 @@ class Program
         Console.WriteLine("Multiplicação " + MathOperations.MathOperation(valor1, valor2, OperationTypeEnum.MULTIPLICATION));
         Console.WriteLine("Divisão " + MathOperations.MathOperation(valor1, valor2, OperationTypeEnum.DIVISION));
         Console.WriteLine("Média " + MathOperations.MathOperation(valor1, valor2, OperationTypeEnum.AVERAGE));
+    }
+
+    public static void Main()
+    {
+        Console.WriteLine("Digite uma ou mais palavras para que seja retornado a quantidade de caracteres");
+
+        string text = ValidateSchemaNameSurname(Console.ReadLine(), true);
+
+        text = text.Replace(" ", "");
+
+
+        Console.WriteLine($"O texto, sem contar os espaços, possui um total de: {text.Count()} caracteres");
     }
 }
