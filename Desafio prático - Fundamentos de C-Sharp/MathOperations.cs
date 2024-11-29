@@ -1,4 +1,6 @@
-﻿namespace Desafio_prático___Fundamentos_de_C_Sharp;
+﻿using Desafio_prático___Fundamentos_de_C_Sharp.Enum;
+
+namespace Desafio_prático___Fundamentos_de_C_Sharp;
 
 public class MathOperations
 {

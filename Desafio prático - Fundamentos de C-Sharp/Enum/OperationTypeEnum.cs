@@ -1,4 +1,4 @@
-﻿namespace Desafio_prático___Fundamentos_de_C_Sharp;
+﻿namespace Desafio_prático___Fundamentos_de_C_Sharp.Enum;
 
 public enum OperationTypeEnum
 {
